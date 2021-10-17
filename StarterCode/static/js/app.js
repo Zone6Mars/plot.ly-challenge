@@ -28,9 +28,11 @@ function charts(CurrentSubject) {
       var data = [trace2];
   
       var layout = {
-        margin: { t: 0 },
+        margin: { t: 50 },
+        title: "Test Subject's Sample Results",
         xaxis: { title: "OTU ID" },
         hovermode: "closest",
+        height: 600,
         width: 1200,
       };
   
@@ -54,8 +56,8 @@ function charts(CurrentSubject) {
       title: "Test Subject's Top 10",
       xaxis: { autorange: true },
       yaxis: { autorange: true },
-      width: 600,
-      height: 800,
+      width: 500,
+      height: 700,
     };
 
     Plotly.newPlot("bar", data2, layout);
@@ -142,8 +144,8 @@ function demo(CurrentSubject) {
     // Set layout for gauge plot
     var gaugeLayout = {
       title: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week",
-      width: 600,
-      height: 600,
+      width: 500,
+      height: 500,
       shapes:[{
           type: 'path',
           path: path,
