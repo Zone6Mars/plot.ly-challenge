@@ -1,4 +1,5 @@
-# Plot.ly Homework - Belly Button Biodiversity
+Belly Button Biodiversity
+[Deployed app click here!](https://zone6mars.github.io/plot.ly/index.html)
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
